@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailwindCSS</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <body class="bg-gray-100 p-4">
+      <!-- Main Menu -->
+      <div class="bg-black w-full">
+        <div class="container mx-auto">
+          <nav class="flex justify-between items-center">
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 text-white mr-2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+                <ul class="items-center">
+                  <li class="bg-red-500 px-2 py-4 uppercase mr-3 text-white">
+                    CNN
+                  </li>
+                </ul>
+              </svg>
+              <div class="text-white lg:flex lg:gap-4 lg:items-center hidden">
+                <ul class="lg:flex lg:gap-4 lg:items-center lg:ml-3 hidden">
+                  <li>World</li>
+                  <li>US Politics</li>
+                  <li>Business</li>
+                  <li>Health</li>
+                  <li>More</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <ul class="hidden text-white md:flex md:gap-4 md:align-middle">
+                <li>Audio</li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="hidden lg:block sm:size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                      class="text-white size-6"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="border-white border-2 px-3 py-2 rounded-md my-5"
+                    >Login</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div></div>
+
+      <!-- Second Menu -->
+
+      <div class="container flex justify-center mt-3">
+        <ul
+          class="hidden md:flex md:gap-4 md:items-center md:ml-3 md:overflow-hidden"
+        >
+          <li>Postcast</li>
+          <li>Russia</li>
+          <li>Thailand</li>
+          <li>Vietnam</li>
+          <li>Asia</li>
+          <li>USA</li>
+          <li>Europe</li>
+          <li>Japan</li>
+          <li>Thailand</li>
+          <li>Vietnam</li>
+          <li>Asia</li>
+          <li>USA</li>
+          <li>Europe</li>
+          <li>Japan</li>
+        </ul>
+      </div>
+
+      <!-- Main Content -->
+      <div class="container mx-auto mt-5">
+        <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-4">
+          <!-- คอลัมน์แรก -->
+          <div class="bg-blue-500 text-white p-6 h-32 md:w-full lg:col-span-2">
+            Column1 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Eius eveniet blanditiis recusandae, modi quia, voluptate laudantium
+            reiciendis nobis officia soluta voluptatum totam fugiat architecto
+            libero? Maiores facere voluptatem eum cum!
+          </div>
+
+          <!-- คอลัมน์ที่ 2 และ 3 -->
+          <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-4 w-full">
+            <div class="bg-green-500 text-white p-6 lg:col-span-1">
+              Column2 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda nihil voluptatum incidunt harum nisi, cum magni
+              exercitationem laborum voluptatibus corrupti, beatae similique!
+              Ipsum maiores cupiditate voluptates deserunt asperiores
+              accusantium iure.
+            </div>
+            <div class="bg-red-500 text-white p-6 lg:col-span-1">
+              Column3 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Fugiat modi, officia, aspernatur animi harum assumenda dolorum,
+              minima cumque ullam hic sequi eligendi esse quibusdam libero
+              officiis laboriosam dignissimos porro dolorem!
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </body>
+</html>
